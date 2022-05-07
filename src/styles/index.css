@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+html {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body {
+	background: #485563;
+	background: -webkit-linear-gradient(to right, #29323c, #485563);
+	background: linear-gradient(to right, #29323c, #485563);
+	font-family: "Roboto", sans-serif;
+}
+
+.pop-app-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 40px;
+	color: white;
+}
+
+.title {
+	display: flex;
+	gap: 15px;
+	font-size: 96px;
+	animation: color-animation 4s linear infinite;
+	--color-1: #df8453;
+	--color-2: #3d8dae;
+	--color-3: #e4a9a8;
+}
+
+.js-span {
+	animation: color-animation 4s linear infinite;
+	--color-1: #8fbc8f;
+	--color-2: #dbad4a;
+	--color-3: #accfcb;
+}
+
+@keyframes color-animation {
+	0% {
+		color: var(--color-1);
+	}
+	32% {
+		color: var(--color-1);
+	}
+	33% {
+		color: var(--color-2);
+	}
+	65% {
+		color: var(--color-2);
+	}
+	66% {
+		color: var(--color-3);
+	}
+	99% {
+		color: var(--color-3);
+	}
+	100% {
+		color: var(--color-1);
+	}
+}
+
+.subtitle {
+	font-size: 30px;
+}
+
+.counter-container {
+	display: flex;
+	gap: 40px;
+	align-items: center;
+	font-size: 40px;
+	color: white;
+}
+
+.action-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	font-size: 40px;
+	font-weight: bold;
+	border-radius: 50%;
+	border: none;
+	transition: 0.1s;
+}
+
+.action-btn:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.even-odd-indicator {
+	font-size: 24px;
+}
