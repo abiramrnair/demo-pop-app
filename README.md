@@ -1,6 +1,6 @@
 # Demo pop! App
 
 ### How to run
-- cd current_directory
+- cd demo-pop-app
 - npm i
 - npm run devServer
