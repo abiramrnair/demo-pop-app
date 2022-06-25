@@ -10,7 +10,7 @@ export const appContainer = {
 				POP.create("span|class=js-span", ["JS"]),
 			]),
 			POP.create("div|class=subtitle", ["Frontend made easy."]),
-			POP.use(counterComponent, { stateKey: "pop-app-counter" }),
+			POP.use(counterComponent, { accessKey: "pop-app-counter" }),
 			POP.use(evenOddComponent),
 		]);
 	},

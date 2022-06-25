@@ -29,6 +29,6 @@
 		"webpack-dev-server": "^4.9.0"
 	},
 	"dependencies": {
-		"sonpop-js": "^1.0.8"
+		"sonpop-js": "^1.1.0"
 	}
 }
