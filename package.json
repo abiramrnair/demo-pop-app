@@ -1,6 +1,6 @@
 {
 	"name": "demo-pop-app",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
@@ -29,6 +29,6 @@
 		"webpack-dev-server": "^4.9.0"
 	},
 	"dependencies": {
-		"sonpop-js": "^1.1.0"
+		"sonpop-js": "^1.1.1"
 	}
 }
