@@ -1,12 +1,12 @@
 {
 	"name": "demo-pop-app",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"build": "webpack",
-		"devServer": "webpack serve --open",
+		"dev": "webpack serve --open",
 		"watch": "webpack --watch"
 	},
 	"repository": {
@@ -29,6 +29,6 @@
 		"webpack-dev-server": "^4.9.0"
 	},
 	"dependencies": {
-		"sonpop-js": "^1.1.2"
+		"sonpop-js": "^1.1.4"
 	}
 }

@@ -2,7 +2,8 @@ import POP from "sonpop-js";
 import buttonComponent from "./button-component";
 
 export const counterComponent = {
-	set: (state) => {
+	set: (component) => {
+		const { state } = component;
 		state.counterVal = 0;
 	},
 	render: (component) => {
