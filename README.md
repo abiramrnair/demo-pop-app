@@ -3,4 +3,4 @@
 ### How to run
 - cd demo-pop-app
 - npm i
-- npm run devServer
+- npm run dev
